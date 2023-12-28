@@ -165,6 +165,9 @@ sudo apt-get update
 sudo apt install ffmpeg
 sudo apt install python3-pip
 sudo apt-get -y install python3-tk
+
+python3 -m venv uvr_env
+source uvr_env/bin/activate
 pip3 install -r requirements.txt
 python3 UVR.py
 ```
